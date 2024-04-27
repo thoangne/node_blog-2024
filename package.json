@@ -1,0 +1,31 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoangne/node_blog-2024.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "nodejs"
+  ],
+  "author": "thoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoangne/node_blog-2024/issues"
+  },
+  "homepage": "https://github.com/thoangne/node_blog-2024#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
